@@ -62,8 +62,8 @@ tree-sitter --version
 打开项目中的 Python/Rust 文件，使用 `:checkhealth vim.lsp` 检查语言服务。
 Python 建议先激活项目虚拟环境，再启动 Neovim。配置也会尝试检测项目的 `.venv` 或 `venv`。
 
-本配置使用自定义普通模式按键，许多 Vim 默认键位已禁用。完整按键表见 [README.md](README.md)，
-在编辑器中也可以通过 `:NvimGuide` 查看。退出插入模式会自动保存可写的普通文件；冲突时会暂停保存。
+本配置使用自定义普通模式按键，许多 Vim 默认键位已禁用。完整模式和按键表见 [KEYMAPS.md](KEYMAPS.md)，
+在编辑器中可用 `:view ~/.config/nvim/KEYMAPS.md` 查看；`:NvimGuide` 打开仓库概览。退出插入模式会自动保存可写的普通文件；冲突时会暂停保存。
 
 ## 后续维护
 
